@@ -1,0 +1,70 @@
+{"intents":[
+  { "tag": "saudacao",
+    "patterns":["Ola","Opa","Oi", "tudo bem"],
+    "responses": ["Oi","Ola"]
+  },
+  { "tag": "data_prova",
+    "patterns":["Quando sera a prova","A prova sera em que dia"],
+    "responses": ["Nesta materia nao tera prova."]
+  },
+  { "tag": "TCC_base",
+    "patterns":["O que e um tcc","O que significa um tcc"],
+    "responses": ["O tcc tem como objetivo exercitar as capacidades dos estudantes, fazendo-os desenvolver uma solucao de algum problema utilizando o conhecimento acumulado ao longo do curso."]
+  },
+  { "tag": "metodo",
+    "patterns":["Como deve ser a solucao","Qual a base da solucao"],
+    "responses": ["A solucao deve ter como base o metodo cientifico."]
+  },
+  { "tag": "resultado",
+    "patterns":["Quando o resultado esperado do tcc","Como deve ser elaborado o tcc", "O que se deve entregar no tcc"],
+    "responses": ["E esperado uma monografia e um programa ou artefato desenvolvido pelos alunos."]
+  },
+  { "tag": "monografia",
+    "patterns":["O que e uma monografia","Como assim monografia", "monografia"],
+    "responses": ["Monografia deve apresentar uma introducao do problema, uma conceituacao, revisao da literatura utilizada, arquitetura de solucao, discussoes dos resultados e consideracoes finais."]
+  },
+  { "tag": "artefato",
+    "patterns":["Como assim artefato","O que significa artefato"],
+    "responses": ["Uma solucao computacional desenvolvida em software elaborada em um desenvolvimento de software e hardware."]
+  },
+  { "tag": "grupo",
+    "patterns":["Quantos integrantes pode ter o grupo", "O grupo e de quantos", "Quantos membros pode ter o grupo"],
+    "responses": ["O ideal e de ate 4 integrantes.","Idealmente o grupo e de no maximo 4, podendo fazer com mais, porem aumentando a regua de correcao."]
+  },
+  { "tag": "orientador",
+    "patterns":["Quem pode ser o orientador", "O que e um orientador", "orientador", "Quem orienta o tcc"],
+    "responses": ["O orientador e um professor da fei que auxilia na elaboracao do projeto, podendo ser qualquer professor da fei, desde que tenha alguma ligacao com o curso."]
+  },
+  { "tag": "tema",
+    "patterns":["Qual o tema", "Quem decide o tema", "O orientador escolhe o tema"],
+    "responses": ["O orientador auxilia na decisao do tema, porem quem decide e o proprio grupo de alunos."]
+  },
+  { "tag": "prof_disciplina",
+    "patterns":["Qual a funcao do professor da disciplina", "O que faz o professor de tcc"],
+    "responses": ["O professor da materia de tcc deve apresentar os topicos relevantes sobre a metodologia cientifica, acompanhar a evolucao de cada grupo (sem interfirir na orientacao), validar entregas no moodle e informar o orientador caso haja necessidade."]
+  },
+  { "tag": "dinamica_avaliacao",
+    "patterns":["Como sera avaliado o trabalho", "Quem ira avaliar o tcc", "avaliacao"],
+    "responses": [
+      "Os alunos terao dois semestres para desenvolver o trabalho, onde, ao final de cada um deles, um banca de professores avaliara a monografia e a solucao implementada com base em premissas pre-estabelecidas pelos mesmos.",
+      "O tcc sera avaliado por uma banca de professores por meio de premissas pre-estabelecidas pelos mesmos, avaliacao essa que e definitiva e individualmente (dependendo da contribuicao ao projeto)."
+    ]
+  },
+  { "tag": "programacao",
+    "patterns":["Onde eu encontro a programacao de aulas", "Qual o cronograma das aulas", "Qual o cronograma", "Qual a programacao"],
+    "responses": ["O conteudo das aulas pode ser encontrado no moodle da fei na aba de CC7411."]
+  },
+  { "tag": "whatsapp",
+    "patterns":["Tem grupo no whats", "Tem grupo no whatsapp da materia", "whats"],
+    "responses": ["Todos os alunos que estavam na grupo do semestre passado foram migrados para o deste semestre."]
+  },
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","Obrigado","tks", "falou"],
+    "responses": ["Ate breve","Falou"]
+  },
+  { "tag": "sug_orientador",
+    "patterns":["Sugira orientadores"],
+    "responses": ["Aqui estao alguns que voce pode escolher dependendo do tema: Leila Bergamasco (Banco de dados), Paulo Sergio (Computacao Grafica), Fagner Pimentel (Design de Jogos)."]
+  }
+]
+}
